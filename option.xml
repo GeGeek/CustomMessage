@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="customMessage"></category>
+			<category name="customMessage.permissionDenied">
+				<parent>customMessage</parent>
+			</category>
+			<category name="customMessage.disclaimer">
+				<parent>customMessage</parent>
+			</category>
+			<category name="customMessage.register">
+				<parent>customMessage</parent>
+			</category>
+			<category name="customMessage.login">
+				<parent>customMessage</parent>
+			</category>
+			<category name="customMessage.lostPassword">
+				<parent>customMessage</parent>
+			</category>
+		</categories>
+	
+		<options>
+			<option name="custom_message_permission_denied_message">
+				<categoryname>customMessage.permissionDenied</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
+			<option name="custom_message_permission_denied_enable_html">
+				<categoryname>customMessage.permissionDenied</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+			<option name="custom_message_disclaimer">
+				<categoryname>customMessage.disclaimer</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
+			<option name="custom_message_disclaimer_enable_html">
+				<categoryname>customMessage.disclaimer</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+			<option name="custom_message_register">
+				<categoryname>customMessage.register</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
+			<option name="custom_message_register_enable_html">
+				<categoryname>customMessage.register</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+			<option name="custom_message_login">
+				<categoryname>customMessage.login</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
+			<option name="custom_message_login_enable_html">
+				<categoryname>customMessage.login</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+			<option name="custom_message_lost_password">
+				<categoryname>customMessage.lostPassword</categoryname>
+				<optiontype>textareaI18n</optiontype>
+				<supporti18n>1</supporti18n>
+			</option>
+			<option name="custom_message_lost_password_enable_html">
+				<categoryname>customMessage.lostPassword</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+		</options>
+	</import>
+</data>

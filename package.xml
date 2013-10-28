@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="net.gegeek.wcf.customMessage" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>Custom Messages</packagename>
+		<packagename language="fr">Message personnalisé</packagename>
+		<packagedescription>Add custom message in different parts of your board.</packagedescription>
+		<packagedescription language="fr">Ajoutez un message personnalisé dans différent parties de votre forum.</packagedescription>
+		<version>1.0.2</version>
+		<date>2013-10-20</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>GeGeek</author>
+		<authorurl>http://www.gegeek.net</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 Beta 6">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="templateListener">templateListener.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+	</instructions>
+	<instructions type="update" fromversion="1.0.0">
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="template">templates.tar</instruction>
+	</instructions>
+</package>

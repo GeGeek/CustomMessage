@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/templatelistener.xsd">
+	<import>
+		<templatelistener name="permissionDeniedMess">
+			<environment>user</environment>
+			<templatename>permissionDenied</templatename>
+			<eventname>content</eventname>
+			<templatecode><![CDATA[{include file='permissionDeniedMess' application='wcf'}]]></templatecode>
+		</templatelistener>
+	</import>
+	<import>
+		<templatelistener name="disclaimerMess">
+			<environment>user</environment>
+			<templatename>disclaimer</templatename>
+			<eventname>fieldsets</eventname>
+			<templatecode><![CDATA[{include file='disclaimerMess' application='wcf'}]]></templatecode>
+		</templatelistener>
+	</import>
+	<import>
+		<templatelistener name="registerMess">
+			<environment>user</environment>
+			<templatename>register</templatename>
+			<eventname>fieldsets</eventname>
+			<templatecode><![CDATA[{include file='registerMess' application='wcf'}]]></templatecode>
+		</templatelistener>
+	</import>
+	<import>
+		<templatelistener name="loginMess">
+			<environment>user</environment>
+			<templatename>login</templatename>
+			<eventname>fieldsets</eventname>
+			<templatecode><![CDATA[{include file='loginMess' application='wcf'}]]></templatecode>
+		</templatelistener>
+	</import>
+	<import>
+		<templatelistener name="lostPasswordMess">
+			<environment>user</environment>
+			<templatename>lostPassword</templatename>
+			<eventname>fieldsets</eventname>
+			<templatecode><![CDATA[{include file='lostPasswordMess' application='wcf'}]]></templatecode>
+		</templatelistener>
+	</import>
+</data>		

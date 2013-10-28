@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.customMessage"><![CDATA[Custom message]]></item>
+		<item name="wcf.acp.option.category.customMessage.permissionDenied"><![CDATA[Permission denied]]></item>
+		<item name="wcf.acp.option.category.customMessage.disclaimer"><![CDATA[Disclaimer]]></item>
+		<item name="wcf.acp.option.category.customMessage.register"><![CDATA[Register]]></item>
+		<item name="wcf.acp.option.category.customMessage.login"><![CDATA[Login]]></item>
+		<item name="wcf.acp.option.category.customMessage.lostPassword"><![CDATA[Lost password]]></item>
+		<item name="wcf.acp.option.custom_message_permission_denied_message"><![CDATA[Permission denied]]></item>
+		<item name="wcf.acp.option.custom_message_disclaimer"><![CDATA[Disclaimer]]></item>
+		<item name="wcf.acp.option.custom_message_register"><![CDATA[Register]]></item>
+		<item name="wcf.acp.option.custom_message_login"><![CDATA[Login]]></item>
+		<item name="wcf.acp.option.custom_message_lost_password"><![CDATA[Lost password]]></item>
+		<item name="wcf.acp.option.custom_message_permission_denied_enable_html"><![CDATA[Enable HTML code]]></item>
+		<item name="wcf.acp.option.custom_message_disclaimer_enable_html"><![CDATA[Enable HTML code]]></item>
+		<item name="wcf.acp.option.custom_message_register_enable_html"><![CDATA[Enable HTML code]]></item>
+		<item name="wcf.acp.option.custom_message_login_enable_html"><![CDATA[Enable HTML code]]></item>
+		<item name="wcf.acp.option.custom_message_lost_password_enable_html"><![CDATA[Enable HTML code]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.customMessage"><![CDATA[Custom message]]></item>
+		<item name="wcf.acp.group.option.user.customMessage.permissionDenied.canSee"><![CDATA[Can see the message into the permission denied page]]></item>
+		<item name="wcf.acp.group.option.user.customMessage.disclaimer.canSee"><![CDATA[Can see the message into the disclaimer page]]></item>
+		<item name="wcf.acp.group.option.user.customMessage.register.canSee"><![CDATA[Can see the message into the register page]]></item>
+		<item name="wcf.acp.group.option.user.customMessage.login.canSee"><![CDATA[Can see the message into the login page]]></item>
+		<item name="wcf.acp.group.option.user.customMessage.lostPassword.canSee"><![CDATA[Can see the message into the lost password page]]></item>
+	</category>
+</language>
