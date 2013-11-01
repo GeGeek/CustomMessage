@@ -20,7 +20,7 @@
 	</category>
 	<category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.category.user.customMessage"><![CDATA[Custom message]]></item>
-		<item name="wcf.acp.group.option.user.customMessage.permissionDenied.canSee"><![CDATA[Kann Benutzerdefinierte Nachricht auf der der "Zugriff verweigert" Seite lesen.]]></item>
+		<item name="wcf.acp.group.option.user.customMessage.permissionDenied.canSee"><![CDATA[Kann Benutzerdefinierte Nachricht auf der der \\"Zugriff verweigert\\" Seite lesen.]]></item>
 		<item name="wcf.acp.group.option.user.customMessage.disclaimer.canSee"><![CDATA[Kann die Nachricht im Haftungsausschluss/Impressum sehen]]></item>
 		<item name="wcf.acp.group.option.user.customMessage.register.canSee"><![CDATA[Kann die Nachricht im Registrierungsformular sehen]]></item>
 		<item name="wcf.acp.group.option.user.customMessage.login.canSee"><![CDATA[Kann die Nachricht beim Einloggen sehen]]></item>
